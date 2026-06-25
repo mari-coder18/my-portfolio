@@ -13,8 +13,9 @@ export default function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-yellow-400 font-bold tracking-widest uppercase mb-4">About Me</h2>
-          <h3 className="text-3xl md:text-4xl font-black leading-tight mb-6">
+          <h2 className="text-yellow-400 font-bold tracking-widest uppercase mb-4">Who I'm</h2>
+          <h1 className="text-3xl md:text-4xl font-black leading-tight m">I'am <span className="text-yellow-500"> Marimuthu U.</span></h1>
+          <h3 className="text-2xl md:text-4xl font-black leading-tight mb-6">
             Building digital experiences that matter.
           </h3>
           <p className="text-gray-400 leading-8 mb-8">

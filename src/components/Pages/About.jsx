@@ -14,6 +14,7 @@ export default function About() {
           className="text-center mb-16"
         >
           <p className="text-yellow-400 font-inter tracking-[0.3em] uppercase">About Me</p>
+          <h1 className="text-3xl md:text-5xl font-black mt-3">I'am <span className="text-cyan-400"> Marimuthu U.</span></h1>
           <h2 className="text-3xl md:text-5xl font-black mt-3">Full Stack Developer</h2>
         </motion.div>
 

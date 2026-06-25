@@ -55,7 +55,7 @@ function CTASection() {
 
           {/* Hire Me */}
           <a
-            href="/Marimuthu__Resume.pdf"
+            href="/Marimuthu-Resume.pdf"
             download
             className="
               rounded-2xl

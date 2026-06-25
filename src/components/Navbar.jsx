@@ -23,7 +23,7 @@ function Navbar() {
 
         {/* Logo */}
         <h1 className="text-2xl md:text-3xl font-bold font-poppins">
-          Portfolio<span className="text-yellow-400">.</span>
+          Marimuthu U<span className="text-yellow-400 uppercase tracking-widest">.</span>
         </h1>
 
         {/* Desktop Nav Links */}
@@ -31,7 +31,7 @@ function Navbar() {
           {navlinks.map((navlink, index) => (
             <li
               key={index}
-              className="cursor-pointer hover:text-yellow-400 transition duration-300"
+              className="cursor-pointer hover:text-yellow-400 transition duration-300 font-poppins"
             >
               <a href={navlink.path}>{navlink.name}</a>
             </li>
@@ -65,7 +65,7 @@ function Navbar() {
                   <a
                     href={navlink.path}
                     onClick={handleLinkClick}
-                    className="block text-lg text-white hover:text-yellow-400 transition duration-300 border-b border-white/5 pb-3"
+                    className="block text-lg font-poppins hover:text-yellow-400 transition duration-300 border-b border-white/5 pb-3"
                   >
                     {navlink.name}
                   </a>

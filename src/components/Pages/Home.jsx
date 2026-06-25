@@ -184,7 +184,7 @@ function Home() {
               </Link>
 
               <a
-                href="/Marimuthu__Resume.pdf"
+                href="/Marimuthu-Resume.pdf"
                 download
                 className="
                   w-[85%]
@@ -240,7 +240,7 @@ function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/marimuthu-u"
+                href=" https://www.linkedin.com/in/marimuthu-u"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
